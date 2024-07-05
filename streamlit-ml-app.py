@@ -32,9 +32,9 @@ def prediction(Gender,Married,Dependents,
             Self_Employed = 0
 
         if Credit_History == "Outstanding Loan":
-            Credit_History = 1
+            Credit_History = 0
         else:
-            Credit_History = 0   
+            Credit_History = 1   
         
         if Property_Area == "Rural":
             Property_Area = 0
